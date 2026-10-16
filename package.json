@@ -1,0 +1,39 @@
+{
+  "name": "chord-whale-flow",
+  "version": "0.1.0",
+  "description": "Follows tokens that several large wallets are net buying, from Chord's trade tape. Paper by default.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "loop": "node index.js --loop"
+  },
+  "engines": {
+    "node": ">=20.12"
+  },
+  "keywords": [
+    "ai-agent",
+    "trading-bot",
+    "defi",
+    "mcp",
+    "chord",
+    "whale-tracking",
+    "base",
+    "arbitrum",
+    "ethereum",
+    "bnb-chain",
+    "avalanche",
+    "monad",
+    "robinhood",
+    "arc"
+  ],
+  "homepage": "https://github.com/tuantqse90/chord-whale-flow#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuantqse90/chord-whale-flow.git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "viem": "^2.57.7"
+  }
+}

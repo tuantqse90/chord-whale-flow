@@ -1,0 +1,11 @@
+{
+  "actorSpecification": 1,
+  "name": "chord-whale-flow",
+  "title": "Chord Whale Flow",
+  "description": "Which tokens are large wallets net buying right now? Reads Chord's trade tape for the most traded tokens on an EVM chain and sums whale trades per wallet. No API key.",
+  "version": "0.1",
+  "buildTag": "latest",
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "../README.md"
+}

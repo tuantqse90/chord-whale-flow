@@ -1,0 +1,46 @@
+{
+  "title": "Chord Whale Flow",
+  "type": "object",
+  "schemaVersion": 1,
+  "properties": {
+    "chain": {
+      "title": "Chain",
+      "type": "string",
+      "editor": "select",
+      "enum": [
+        "base",
+        "ethereum",
+        "arbitrum",
+        "bnb",
+        "avalanche",
+        "monad",
+        "robinhood",
+        "arc"
+      ],
+      "default": "base",
+      "description": "Chain to read."
+    },
+    "minTradeUsd": {
+      "title": "Smallest whale trade (USD)",
+      "type": "integer",
+      "editor": "number",
+      "default": 5000,
+      "description": "Trades below this are ignored."
+    },
+    "windowHours": {
+      "title": "Window (hours)",
+      "type": "integer",
+      "editor": "number",
+      "default": 2,
+      "description": "Look-back window."
+    },
+    "tokensScanned": {
+      "title": "Tokens",
+      "type": "integer",
+      "editor": "number",
+      "default": 20,
+      "description": "How many of the most traded tokens to read."
+    }
+  },
+  "required": []
+}
